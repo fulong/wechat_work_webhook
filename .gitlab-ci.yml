@@ -19,7 +19,6 @@ before_script:
   - echo "StrictHostKeyChecking no" > ~/.ssh/config
   - echo "UserKnownHostsFile /dev/null" >> ~/.ssh/config
   - rm -rf dep/
-  - rm -rf doc/related_software/
   #- wget http://file.eiot.mobi/yes.sh
   #- echo "set timeout 10" > yes.sh
   #- echo "spawn git submodule update --init --recursive" >> yes.sh
@@ -51,6 +50,6 @@ job1:
     #- mv common_lib-master common_lib
     #- cd ..
     - chmod 755 . -R
-    - ./lane_machine_auxiliary.sh build distclean
-    - ./lane_machine_auxiliary.sh build
+    - ./linux_cmake_template_auxiliary.sh build distclean
+    - ./linux_cmake_template_auxiliary.sh build
     
