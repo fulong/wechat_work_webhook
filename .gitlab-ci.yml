@@ -1,0 +1,56 @@
+image: reg.eiot.mobi/library/crossgcc:0.00.9
+
+stages:
+  - build
+  
+before_script:
+  #- echo "nameserver 223.6.6.6" > /etc/resolv.conf
+  #- echo "nameserver 223.5.5.5" >> /etc/resolv.conf
+  - apt update
+  - apt install lib32stdc++6 lib32ncurses5 lib32z1 -y
+  - apt install wget cmake gcc g++ tree openssh-client git -y
+  - chmod 755 . -R
+  # 添加私钥
+  - eval `ssh-agent -s`
+  - ssh-add <(echo "$SSH_PRIVATE_KEY")
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+  - rm -rf ~/.ssh/known_hosts*
+  - echo "StrictHostKeyChecking no" > ~/.ssh/config
+  - echo "UserKnownHostsFile /dev/null" >> ~/.ssh/config
+  - rm -rf dep/
+  - rm -rf doc/related_software/
+  #- wget http://file.eiot.mobi/yes.sh
+  #- echo "set timeout 10" > yes.sh
+  #- echo "spawn git submodule update --init --recursive" >> yes.sh
+  #- echo "expect {" >> yes.sh
+  #- echo "\"(yes/no)?\"" >> yes.sh
+  #- echo "{" >> yes.sh
+  #- echo "send \"yes\\n\"" >> yes.sh
+  #- echo "}" >> yes.sh
+  #- echo "}" >> yes.sh
+  #- chmod 755 yes.sh
+  # 拉取子模块
+  - git submodule init
+  - git submodule update --init --recursive
+  - git submodule sync --recursive
+  #- expect yes.sh
+  - apt install python -y
+
+job1:
+  stage: build
+  tags:
+    - iot-6g2c-l-share
+  script:
+    #- wget http://file.eiot.mobi/common_lib-master.tar.bz2
+    #- mkdir -p dep
+    #- mv common_lib-master.tar.bz2 dep
+    #- cd dep
+    #- tar jxvf common_lib-master.tar.bz2
+    #- rm -rf common_lib
+    #- mv common_lib-master common_lib
+    #- cd ..
+    - chmod 755 . -R
+    - ./lane_machine_auxiliary.sh build distclean
+    - ./lane_machine_auxiliary.sh build
+    

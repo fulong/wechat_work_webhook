@@ -1,0 +1,11 @@
+node_modules/
+*.log
+build/
+bin/
+*.vpwhist
+*.vtg
+*.vpwhistu
+.vs
+obj
+package-lock.json
+*.sca

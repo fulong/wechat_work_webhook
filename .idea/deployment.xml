@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Ubuntu64-arm-gcc-9.2-micropc (3bca12ba-59dc-47c0-8e41-4dbf54d171dc)" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;*.pyc;node_modules" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Ubuntu64-Linaro-GCC-4.9-2014.09-micropc (0e132f9f-21de-402e-a2cd-d13b16f051a6)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/linux_cmake_template" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-ubuntu64-arm-gcc-92-micropc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-ubuntu64-arm-gcc-92-micropc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-ubuntu64-linaro-gcc-49-201409-micropc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-ubuntu64-linaro-gcc-49-201409-micropc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_release" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="Ubuntu64-arm-gcc-9.2 (676f358e-f461-4f17-941e-a8a07d41e6c8)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Ubuntu64-arm-gcc-9.2-micropc (3bca12ba-59dc-47c0-8e41-4dbf54d171dc)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/linux_cmake_template" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-ubuntu64-arm-gcc-92-micropc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-ubuntu64-arm-gcc-92-micropc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-ubuntu64-linaro-gcc-49-201409-micropc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-ubuntu64-linaro-gcc-49-201409-micropc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_release" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="ubuntu32 (d7607421-04b8-4ace-b240-39a18d871676)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ubuntu32-Sourcery-G++-Lite-2008q3-72 (638e2d87-873a-4d62-b4e9-d337c6781005)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ubuntu64 (17b6e06e-6557-489c-bc9c-b897e119658f)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ubuntu64-Linaro-GCC-4.9-2014.09 (7b4605db-07d6-4410-90a0-7b623fc6448d)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="wsl (d7ea8ca6-30a7-4524-beb4-a01baafc2085)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

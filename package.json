@@ -1,0 +1,38 @@
+{
+  "name": "linux_cmake_template",
+  "version": "0.0.0",
+  "description": "车道机业务程序",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "commitizen": "^4.2.1",
+    "conventional-changelog-cli": "^2.1.0",
+    "conventional-gitlab-releaser": "^4.0.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "npm-check-updates": "^9.0.3",
+    "standard-changelog": "^2.0.24",
+    "standard-version": "^9.0.0",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "release": "conventional-gitlab-releaser -p angular -r 0 -u https://git.fulong.me/api/v4/ -t $TOKEN",
+    "release-new": "conventional-gitlab-releaser -p angular -u https://git.fulong.me/api/v4/ -t $TOKEN",
+    "version": "standard-version",
+    "commit": "git cz",
+    "update": "npm-check-updates -u ; npm update"
+  },
+  "author": "fulong",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+linux_cmake_template.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

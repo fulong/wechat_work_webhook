@@ -1,0 +1,3 @@
+#!/bin/bash
+export CC=arm-none-linux-gnueabihf-gcc
+export CXX=arm-none-linux-gnueabihf-g++
