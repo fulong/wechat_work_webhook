@@ -77,6 +77,7 @@ if [ -f "package.json" ]; then
 fi
 
 rm -rf patch
+rm -rf CHANGELOG.md
 
 git add .
 git commit -m"自动配置完成"
