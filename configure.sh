@@ -49,6 +49,10 @@ mv ${project_dir}/${project_name_old}_auxiliary.sh  ${project_dir}/src/main/${pr
 #更改gilab ci
 sed -i "s/${project_name_old}/${project_name}/g" .gitlab-ci.yml
 
+#更改cmake
+sed -i "s/${project_name_old}/${project_name}/g" CMakeLists.txt
+sed -i "s/${project_name_old_upper}/${project_name_upper}/g" CMakeLists.txt
+
 #更改README
 echo "# ${project_name}" >README.md
 

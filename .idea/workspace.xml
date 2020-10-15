@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="linux_cmake_template" targetName="linux_cmake_template" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-Ubuntu64-arm-gcc-9.2-micropc" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Ubuntu64-arm-gcc-9.2-micropc" GENERATION_OPTIONS="-DCMAKE_BUILD_TYPE=Debug -DARCH=iMX6UL_GCC9 -DGCC_NAME=arm-gcc-9.2" GENERATION_DIR="build/iMX6UL_GCC9_debug" />
+      <configuration PROFILE_NAME="Release-Ubuntu64-arm-gcc-9.2-micropc" CONFIG_NAME="Release" TOOLCHAIN_NAME="Ubuntu64-arm-gcc-9.2-micropc" GENERATION_OPTIONS="-DCMAKE_BUILD_TYPE=Release -DARCH=iMX6UL_GCC9 -DGCC_NAME=arm-gcc-9.2" GENERATION_DIR="build/iMX6UL_GCC9_release" />
+      <configuration PROFILE_NAME="Debug-Ubuntu64-Linaro-GCC-4.9-2014.09-micropc" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Ubuntu64-Linaro-GCC-4.9-2014.09-micropc" GENERATION_OPTIONS="-DCMAKE_BUILD_TYPE=Debug -DARCH=iMX6UL -DGCC_NAME=Linaro-GCC-4.9-2014.09" GENERATION_DIR="build/iMX6UL_debug" />
+      <configuration PROFILE_NAME="Release-Ubuntu64-Linaro-GCC-4.9-2014.09-micropc" CONFIG_NAME="Release" TOOLCHAIN_NAME="Ubuntu64-Linaro-GCC-4.9-2014.09-micropc" GENERATION_OPTIONS="-DCMAKE_BUILD_TYPE=Release -DARCH=iMX6UL -DGCC_NAME=Linaro-GCC-4.9-2014.09" GENERATION_DIR="build/iMX6UL_release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f15cb60e-3431-4ee3-9891-ac8eb327d159" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/configure.sh" beforeDir="false" afterPath="$PROJECT_DIR$/configure.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Ubuntu64-arm-gcc-9.2-micropc" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1itZFnJsqMF2FWs6VcOzXk6RmBA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\eiot\linux_cmake_template" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linux_cmake_template" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linux_cmake_template" TARGET_NAME="linux_cmake_template" CONFIG_NAME="Debug-Ubuntu64-arm-gcc-9.2-micropc" RUN_TARGET_PROJECT_NAME="linux_cmake_template" RUN_TARGET_NAME="linux_cmake_template">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f15cb60e-3431-4ee3-9891-ac8eb327d159" name="Default Changelist" comment="" />
+      <created>1602728748024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602728748024</updated>
+      <workItem from="1602728749234" duration="1219000" />
+      <workItem from="1602744374199" duration="734000" />
+      <workItem from="1602745137246" duration="1446000" />
+      <workItem from="1602746614248" duration="206000" />
+      <workItem from="1602746939369" duration="9088000" />
+      <workItem from="1602762183682" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="508" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602748101394">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="508" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/-1440.174.1440.900@0.0.1536.864" timestamp="1602748101394" />
+    <state x="270" y="76" key="SettingsEditor" timestamp="1602747064934">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="76" key="SettingsEditor/0.0.1536.864/-1440.174.1440.900@0.0.1536.864" timestamp="1602747064934" />
+  </component>
+</project>
