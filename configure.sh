@@ -1,5 +1,8 @@
 #! /bin/bash
 project_dir=$1
+if [ -z "$project_dir" ]; then
+  project_dir=`pwd`
+fi
 project_dir_old=""
 
 #如果没有这个文件就是意味着没有配置完成
