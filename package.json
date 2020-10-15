@@ -1,6 +1,6 @@
 {
   "name": "linux_cmake_template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "车道机业务程序",
   "main": "index.js",
   "directories": {
