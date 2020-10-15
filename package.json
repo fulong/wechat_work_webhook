@@ -28,7 +28,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+linux_cmake_template.git"
+    "url": "git+https://git.fulong.me/eiot/linux_cmake_template.git"
   },
   "config": {
     "commitizen": {
