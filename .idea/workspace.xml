@@ -56,9 +56,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="linux_cmake_template" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linux_cmake_template" TARGET_NAME="linux_cmake_template" CONFIG_NAME="Debug-Ubuntu64-arm-gcc-9.2-micropc" RUN_TARGET_PROJECT_NAME="linux_cmake_template" RUN_TARGET_NAME="linux_cmake_template">
@@ -85,7 +85,8 @@
       <workItem from="1602745137246" duration="1446000" />
       <workItem from="1602746614248" duration="206000" />
       <workItem from="1602746939369" duration="9088000" />
-      <workItem from="1602762183682" duration="315000" />
+      <workItem from="1602762183682" duration="738000" />
+      <workItem from="1602763679836" duration="178000" />
     </task>
     <servers />
   </component>
