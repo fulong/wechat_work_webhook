@@ -39,7 +39,7 @@ before_script:
 job1:
   stage: build
   tags:
-    - iot-6g2c-l-share
+    - ubuntu2004-base
   script:
     #- wget http://file.eiot.mobi/common_lib-master.tar.bz2
     #- mkdir -p dep
