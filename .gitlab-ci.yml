@@ -1,4 +1,4 @@
-image: reg.eiot.mobi/library/crossgcc:0.00.9
+image:  reg.eiot.mobi/library/ubuntu2004-base:0.00.1
 
 stages:
   - build
@@ -7,8 +7,6 @@ before_script:
   #- echo "nameserver 223.6.6.6" > /etc/resolv.conf
   #- echo "nameserver 223.5.5.5" >> /etc/resolv.conf
   - apt update
-  - apt install lib32stdc++6 lib32ncurses5 lib32z1 -y
-  - apt install wget cmake gcc g++ tree openssh-client git -y
   - chmod 755 . -R
   # 添加私钥
   - eval `ssh-agent -s`
