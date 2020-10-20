@@ -50,6 +50,7 @@ job1:
     #- mv common_lib-master common_lib
     #- cd ..
     - chmod 755 . -R
+    - export PATH=/root/gcc/bin:$PATH:/root/gcc-x86/bin
     - ./linux_cmake_template_auxiliary.sh build distclean
     - ./linux_cmake_template_auxiliary.sh build
     
