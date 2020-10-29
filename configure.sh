@@ -91,4 +91,10 @@ rm -rf CHANGELOG.md
 git add .
 git commit -m"自动配置完成"
 
+tag=`git tag`
+for dtag in ${tag} 
+do
+	git tag -d ${dtag}
+done
+
 exit 0
