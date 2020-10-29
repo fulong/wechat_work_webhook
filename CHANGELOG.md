@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](http://git.fulong.me/eiot/linux_cmake_template/compare/v0.0.2...v0.0.3) (2020-10-29)
+
+
+### Bug Fixes
+
+* **业务:** 修复clion工程没变 ([260aad4](http://git.fulong.me/eiot/linux_cmake_template/commit/260aad423299d37e204d87a0ace9ef6a5562b5b4))
+* **业务:** 修复编译脚本被移动了 ([785db44](http://git.fulong.me/eiot/linux_cmake_template/commit/785db4446171c2f54707c6656a21626f45f66912))
+* **项目:** 配置完成后删除模板时发布的tag ([e889415](http://git.fulong.me/eiot/linux_cmake_template/commit/e88941548deee47bd6459175d7be7909fe18523a))
+
 ### [0.0.2](http://git.fulong.me/eiot/linux_cmake_template/compare/v0.0.1...v0.0.2) (2020-10-15)
 
 
