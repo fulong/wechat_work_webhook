@@ -53,21 +53,21 @@ case ${option} in
 "rebuild")
   cd ${project_dir}/${debug_build_dir}
   make clean
-  make -j4
+  make -j12 &
   cd ${project_dir}/${release_build_dir}
   make clean
-  make -j4
+  make -j12
   ;;
 *)
   echo "cd ${project_dir}/${debug_build_dir}"
   cd ${project_dir}/${debug_build_dir}
   cmake -DCMAKE_C_COMPILER=${CC} -DCMAKE_CXX_COMPILER=${CXX} -DCMAKE_BUILD_TYPE=Debug -DARCH=${build_option} -DGCC_NAME=${gcc_name} -G "CodeBlocks - Unix Makefiles" ${project_dir}
-  make -j4
+  make -j12 &
 
   echo "cd ${project_dir}/${release_build_dir}"
   cd ${project_dir}/${release_build_dir}
   cmake -DCMAKE_C_COMPILER=${CC} -DCMAKE_CXX_COMPILER=${CXX} -DCMAKE_BUILD_TYPE=Release -DARCH=${build_option} -DGCC_NAME=${gcc_name} -G "CodeBlocks - Unix Makefiles" ${project_dir}
-  make -j4
+  make -j12 
 
   ;;
 esac
