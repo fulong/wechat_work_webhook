@@ -64,6 +64,7 @@ mv .idea/${project_name_old}.iml .idea/${project_name}.iml
 
 #更改README
 echo "# ${project_name}" >README.md
+echo '![master]('"${project_name_old}/badges/master/pipeline.svg)" >> README.md
 
 #存在node目录的话为commit标准存在
 if [ -f "package.json" ]; then
@@ -75,6 +76,7 @@ if [ -f "package.json" ]; then
     url_frame_template=$(echo "${project_git_url}" | sed 's/\//\\\//g')
   fi
   sed -i "s/\<${project_name_old}\>/${project_name}/g" package.json
+  sed -i "s/\<${project_name_old}\>/${url_frame_template/\.git/}/g" README.md
   if [ -n "$url_frame_template" ]; then
     sed -i "s/https.*\.git/${url_frame_template}/g" package.json
     #把版本号设置为0.0.0
