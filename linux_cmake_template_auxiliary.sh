@@ -107,5 +107,7 @@ case ${option} in
   echo "unknown cmd"
   ;;
 esac
+unset CC
+unset CXX
 
 exit 0
