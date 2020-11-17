@@ -1,3 +1,5 @@
 #!/bin/bash
-export CC=gcc
-export CXX=g++
+echo select "${CC:=gcc}"
+export CC
+echo select "${CXX:=g++}"
+export CXX

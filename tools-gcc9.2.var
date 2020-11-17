@@ -1,3 +1,5 @@
 #!/bin/bash
-export CC=arm-none-linux-gnueabihf-gcc
-export CXX=arm-none-linux-gnueabihf-g++
+echo select "${CC:=arm-none-linux-gnueabihf-gcc}"
+export CC
+echo select "${CXX:=arm-none-linux-gnueabihf-g++}"
+export CXX
