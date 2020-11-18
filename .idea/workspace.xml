@@ -11,7 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="linux_cmake_template" targetName="linux_cmake_template" />
+      <config projectName="wechat_work_webhook" targetName="wechat_work_webhook" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -49,7 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\eiot\linux_cmake_template" />
+      <recent name="D:\code\eiot\wechat_work_webhook" />
     </key>
   </component>
   <component name="RunManager">
@@ -58,7 +58,7 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linux_cmake_template" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linux_cmake_template" TARGET_NAME="linux_cmake_template" CONFIG_NAME="Debug-Ubuntu64-arm-gcc-9.2-micropc" RUN_TARGET_PROJECT_NAME="linux_cmake_template" RUN_TARGET_NAME="linux_cmake_template">
+    <configuration name="wechat_work_webhook" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="wechat_work_webhook" TARGET_NAME="wechat_work_webhook" CONFIG_NAME="Debug-Ubuntu64-arm-gcc-9.2-micropc" RUN_TARGET_PROJECT_NAME="wechat_work_webhook" RUN_TARGET_NAME="wechat_work_webhook">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>

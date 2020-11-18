@@ -1,6 +1,6 @@
 {
-  "name": "linux_cmake_template",
-  "version": "0.0.4",
+  "name": "wechat_work_webhook",
+"version":"0.0.0",
   "description": "车道机业务程序",
   "main": "index.js",
   "directories": {
@@ -28,7 +28,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://git.fulong.me/eiot/linux_cmake_template.git"
+    "url": "git+https://git.fulong.me/eiot/wechat_work_webhook.git"
   },
   "config": {
     "commitizen": {

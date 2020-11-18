@@ -5,7 +5,7 @@
       <paths name="Ubuntu64-Linaro-GCC-4.9-2014.09-micropc (0e132f9f-21de-402e-a2cd-d13b16f051a6)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/linux_cmake_template" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/wechat_work_webhook" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_release" />
@@ -33,7 +33,7 @@
       <paths name="Ubuntu64-arm-gcc-9.2-micropc (3bca12ba-59dc-47c0-8e41-4dbf54d171dc)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/linux_cmake_template" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/wechat_work_webhook" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/build/iMX6UL_GCC9_release" />

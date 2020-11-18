@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-set(BUILD_PROJECT_NAME "linux_cmake_template")
+set(BUILD_PROJECT_NAME "wechat_work_webhook")
 project(${BUILD_PROJECT_NAME})
 
 set( CMAKE_VERBOSE_MAKEFILE on )
@@ -22,19 +22,19 @@ if(NOT "${GCC_NAME}" STREQUAL  "")
 	endif()
 endif()
 
-set(LINUX_CMAKE_TEMPLATE_INCLUDE_DIR
+set(WECHAT_WORK_WEBHOOK_INCLUDE_DIR
 )
 
 ##2 LIBRARY PATH
 message(STATUS "Step 2 :  Add library path and public link library")
 	message(STATUS "       LINUX")
-	set(LINUX_CMAKE_TEMPLATE_LIBRARY_DIR
+	set(WECHAT_WORK_WEBHOOK_LIBRARY_DIR
 			)
-	set(LINUX_CMAKE_TEMPLATE_LINK_LIB
+	set(WECHAT_WORK_WEBHOOK_LINK_LIB
 		)
 
-include_directories(${LINUX_CMAKE_TEMPLATE_INCLUDE_DIR})
-link_directories(${LINUX_CMAKE_TEMPLATE_LIBRARY_DIR})
+include_directories(${WECHAT_WORK_WEBHOOK_INCLUDE_DIR})
+link_directories(${WECHAT_WORK_WEBHOOK_LIBRARY_DIR})
 #####################################################################
 # Step 3 :Set visual studio runtime type
 if(${CMAKE_BUILD_TYPE} STREQUAL "Debug")
@@ -57,14 +57,14 @@ message(STATUS "Step 4 : Add code source")
 #add_subdirectory(dep/libevent)
 
 set(SRC_LIST
-		${CMAKE_CURRENT_SOURCE_DIR}/src/main/linux_cmake_template_main.c
-        src/main/linux_cmake_template_main.h)
+		${CMAKE_CURRENT_SOURCE_DIR}/src/main/wechat_work_webhook_main.c
+        src/main/wechat_work_webhook_main.h)
 #########################################################################
 #Step 5 : Add executable or library target
 add_executable(${BUILD_PROJECT_NAME} ${SRC_LIST})
 
-if(NOT ("${LINUX_CMAKE_TEMPLATE_LINK_LIB}" STREQUAL ""))
+if(NOT ("${WECHAT_WORK_WEBHOOK_LINK_LIB}" STREQUAL ""))
 	target_link_libraries(${BUILD_PROJECT_NAME}
-		${LINUX_CMAKE_TEMPLATE_LINK_LIB}
+		${WECHAT_WORK_WEBHOOK_LINK_LIB}
 	)
 endif()

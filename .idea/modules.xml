@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/linux_cmake_template.iml" filepath="$PROJECT_DIR$/.idea/linux_cmake_template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wechat_work_webhook.iml" filepath="$PROJECT_DIR$/.idea/wechat_work_webhook.iml" />
     </modules>
   </component>
 </project>
